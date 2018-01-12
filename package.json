@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-stripe-webhookauth",
+  "version": "0.1.0",
+  "description": "stripe webhook auth (unofficial)",
+  "dependencies": {
+    "express": "4.16.0",
+    "stripe": "5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/susumukwsk/node-red-contrib-stripe-webhookauth.git"
+  },
+  "node-red": {
+    "nodes": {
+      "stripe-webhook-auth in": "stripe-webhook-authin.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "stripe",
+    "webhook",
+    "authentication"
+  ],
+  "author": "Susumu Kawasaki <susumukwsk@gmail.com>",
+  "maintainers": [
+    "Susumu Kawasaki <susumukwsk@gmail.com>"
+  ],
+  "license": "Apache-2.0"
+}
