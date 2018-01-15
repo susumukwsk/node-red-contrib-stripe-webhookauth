@@ -46,7 +46,7 @@ module.exports = function(RED) {
 
     this.errorHandler = function(err,req,res,next) {
         node.warn(err);
-        res.status(500).send(err);
+        res.status(400).send(err);
     };
 
     RED.httpNode.post(config.url, rawBodyParser, this.stripeAuth, this.errorHandler);
